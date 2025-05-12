@@ -10,17 +10,20 @@ Follow the steps below to set up and run the project locally.
 ### Prerequisites
 
 Ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (LTS version recommended)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/nipun22325/to-do-list.git
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -28,6 +31,7 @@ Ensure you have the following installed:
 ### Running the Project
 
 1. Start the Expo development server:
+
    ```bash
    npx expo start
    ```
