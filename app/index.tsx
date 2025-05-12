@@ -164,7 +164,6 @@ export default function Index() {
             data={[...pending].reverse()}
             keyExtractor={(item) => item.id.toString()}
             renderItem={({ item }) => (<ToDoItem todo={item} colors={colors} deleteTodo={deleteTodo} toggleCheckbox={toggleCheckbox}/> )}
-            ListHeaderComponent={ <Text style={[styles.sectionHeader,{color: colors.text}]}> My Tasks </Text> }
             ItemSeparatorComponent={() => <View style={{height: 12}} />}
           />
         )}
