@@ -18,7 +18,6 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/nipun22325/to-do-list.git
-   cd tasks
    ```
 
 2. Install dependencies:
